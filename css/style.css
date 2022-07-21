@@ -1,0 +1,75 @@
+body{
+    font-family: 'Poppins';
+}
+/* kk
+position: absolute;
+width: 1321px;
+height: 646px;
+left: 140px;
+top: 50px;
+
+background: #161616;
+border-radius: 30px;
+*/
+
+header{
+
+    position: absolute;
+    width: 1321px;
+    height: 646px;
+    left: 140px;
+    top: 50px;
+
+    background: #161616; 
+    border-radius: 30px;
+
+    color: white;
+    
+}
+.big-pic-player{
+
+     position: absolute; 
+    width: 531px;
+    height: 424px;
+    left: 106px; 
+    /* left: 246px; */
+    top: 111px;
+
+    /* width: 700px;
+    height: 646px; */
+    /* background-color: blueviolet; */
+    
+
+}
+
+
+header .header-pic{
+    
+    position: absolute; 
+    width: 581px;
+    height: 613px;
+    left: 531px; 
+    top: -105px;
+ 
+
+background: url(kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png);
+/* background-color: blue; */
+vertical-align: top;
+}
+
+.box{
+    font-size: 65px;
+}
+.box2{
+    font-size: 16px;
+}
+.box3 button{
+    position: absolute;
+    width: 187px;
+    height: 56px;
+/* left: 106px; */
+    top: 369px;
+    background-color: red;
+    color: white;
+
+}
