@@ -72,6 +72,11 @@ top: 1354.06px; */
     font-size: 20px;
     color: #161616;
 }
+
+.goal{
+    background-color: black;
+    color: white;
+}
 /* ------------------------------------------Main--------------------------------------- */
 /* smaller device */
 @media screen and (max-width: 576px){
