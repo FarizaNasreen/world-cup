@@ -1,75 +1,159 @@
-body{
+body {
     font-family: 'Poppins';
 }
-/* kk
-position: absolute;
-width: 1321px;
-height: 646px;
-left: 140px;
-top: 50px;
-
+.header1{
+    
 background: #161616;
-border-radius: 30px;
-*/
-
-header{
-
-    position: absolute;
-    width: 1321px;
-    height: 646px;
-    left: 140px;
-    top: 50px;
-
-    background: #161616; 
-    border-radius: 30px;
-
-    color: white;
-    
-}
-.big-pic-player{
-
-     position: absolute; 
-    width: 531px;
-    height: 424px;
-    left: 106px; 
-    /* left: 246px; */
-    top: 111px;
-
-    /* width: 700px;
-    height: 646px; */
-    /* background-color: blueviolet; */
-    
-
+border-radius: 10px;
+color: white;
+display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0px; 
 }
 
-
-header .header-pic{
-    
-    position: absolute; 
-    width: 581px;
-    height: 613px;
-    left: 531px; 
-    top: -105px;
- 
-
-background: url(kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png);
-/* background-color: blue; */
-vertical-align: top;
-}
 
 .box{
     font-size: 65px;
+    
 }
 .box2{
     font-size: 16px;
+    
 }
 .box3 button{
-    position: absolute;
+    
+    position: relative;
     width: 187px;
     height: 56px;
-/* left: 106px; */
-    top: 369px;
+    /* left: 106px;  */
+    /* top: 269px; */
     background-color: red;
     color: white;
 
+}
+
+/* ------------------------------------------Main--------------------------------------- */
+
+    
+ 
+.container1 {
+width: 210px;
+height: 176px;
+/* left: 83px;
+top: 540px; */
+
+}
+
+button{
+    
+    position: relative;
+    width: 187px;
+    height: 56px;
+    /* left: 106px;  */
+    /* top: 269px; */
+    font-weight: 700;
+    background-color: white;
+    color: black;
+
+}
+.container1 .selected{
+    background-color: red;
+    color: white;
+}
+.container2 .c2btn{
+    width: 107.37px;
+height: 34.36px;
+border-radius: 10px;
+/* background-color: pink; */
+/* left: 41.47px;
+top: 1354.06px; */
+}
+#blog-font{
+    font-size: 20px;
+    color: #161616;
+}
+/* ------------------------------------------Main--------------------------------------- */
+/* smaller device */
+@media screen and (max-width: 576px){
+    
+    .header1{    
+        grid-template-columns: repeat(1, 1fr);    
+        /* align-self: start;   */
+        text-align: center;        
+    }
+    
+    .container1{
+        width: 210px;
+        height: 176px;
+        left: 83px;
+        top: 540px;
+
+        display:grid;
+        grid-template-rows: repeat(3,1fr);
+        }
+
+    .container1 button{
+            /* position: relative; */
+            width: 210px;
+            height: 48px;
+            border-radius: 10px;
+
+        }
+        .container2 .c2btn{
+            width: 107.37px;
+        height: 34.36px;
+        border-radius: 10px;
+        /* background-color: pink; */
+        /* left: 41.47px;
+        top: 1354.06px; */
+        }
+        #blog-font{
+            font-size: 20px;
+        }
+                
+    
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width: 992px) {
+    body{
+        /* background-color: red; */
+        text-align: left;
+        
+        
+    }
+    
+    .header1{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .responsive {
+        /* width: 100%; */
+        
+        width: 483px;
+        height: auto;
+        /* height: 340px; */
+      } 
+}
+
+@media screen and (min-width:992px) {
+    body{
+        /* background-color: blue; */
+        text-align: left;       
+    }
+ 
+    .responsive {
+        width: 100%;
+        height: auto;
+        width: 581px;
+        height: 613px;
+      } 
+ 
+      .header1{
+        grid-template-columns: repeat(2, 1fr);
+        /* width: 1321px;
+        height: 646px;
+        align-self: center; */        
+    }
+    
 }
